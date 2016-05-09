@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="sfQ-8G-5ef" customClass="YGSearchBar">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="41"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="筛选欢聚" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LKu-1A-T8f">
+                    <rect key="frame" x="26" y="6" width="267" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="AgH-gF-Fd7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDQ-ee-Fac">
+                    <rect key="frame" x="26" y="5" width="267" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="hc0-0s-Vti"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="searchAction:" destination="sfQ-8G-5ef" eventType="touchUpInside" id="vJ4-4h-0U0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94818535049999997" green="0.94818535049999997" blue="0.94818535049999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GDQ-ee-Fac" secondAttribute="bottom" constant="8" id="27R-9X-jXG"/>
+                <constraint firstAttribute="bottom" secondItem="LKu-1A-T8f" secondAttribute="bottom" constant="5" id="3y4-pA-JN1"/>
+                <constraint firstAttribute="trailing" secondItem="LKu-1A-T8f" secondAttribute="trailing" constant="27" id="WSX-ND-Vg3"/>
+                <constraint firstItem="LKu-1A-T8f" firstAttribute="leading" secondItem="sfQ-8G-5ef" secondAttribute="leading" constant="26" id="kI4-Ak-emx"/>
+                <constraint firstItem="GDQ-ee-Fac" firstAttribute="leading" secondItem="sfQ-8G-5ef" secondAttribute="leading" constant="26" id="lOQ-Go-8dt"/>
+                <constraint firstAttribute="trailing" secondItem="GDQ-ee-Fac" secondAttribute="trailing" constant="27" id="tOq-go-qVX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="searchField" destination="LKu-1A-T8f" id="qv4-jb-7dv"/>
+            </connections>
+            <point key="canvasLocation" x="119" y="15.5"/>
+        </view>
+    </objects>
+</document>

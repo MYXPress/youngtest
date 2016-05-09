@@ -1,0 +1,26 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+
+#import "Define.h"          //工具宏
+#import "URLString.h"       //请求接口
+#import "Configuration.h"   //应用配置信息
+#import "RequestEngineOfNet.h" //请求类
+#import "MBProgressHUD+Add.h" //加载提示
+#import "TipLabel.h" //结果提示
+
+
+#endif

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="YGComtUserCellID" rowHeight="69" id="KGk-i7-Jjw" customClass="YGComtUserCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59A-6f-HJL">
+                        <rect key="frame" x="-1" y="3" width="320" height="64"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KH7-lw-5xZ">
+                                <rect key="frame" x="69" y="32" width="243" height="32"/>
+                                <subviews>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h5d-wi-qtu">
+                                        <rect key="frame" x="0.0" y="4" width="24" height="24"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="你好哦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shJ-pI-GE8">
+                                        <rect key="frame" x="0.0" y="5" width="169" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="243" id="anq-T7-zpk"/>
+                                    <constraint firstAttribute="height" constant="32" id="rft-yf-8QL"/>
+                                </constraints>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJY-ln-jiz">
+                                <rect key="frame" x="8" y="6" width="51" height="51"/>
+                                <state key="normal" backgroundImage="IMG_2390">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVF-eS-uJT">
+                                <rect key="frame" x="67" y="6" width="169" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="--">
+                                        <attributes>
+                                            <color key="NSColor" red="0.38039215686274508" green="0.51764705882352946" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name="STHeitiSC-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.38039215686274508" green="0.51764705882352946" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name=".HelveticaNeueDeskInterface-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="| ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.38039215686274508" green="0.51764705882352946" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="--">
+                                        <attributes>
+                                            <color key="NSColor" red="0.38039215686274508" green="0.51764705882352946" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="STHeitiSC-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ube-Uw-Rzr">
+                                <rect key="frame" x="278" y="32" width="24" height="24"/>
+                                <state key="normal" backgroundImage="card_icon_addattention">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R5X-FC-mht">
+                                <rect key="frame" x="8" y="6" width="51" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="2Xn-9b-E0u"/>
+                                    <constraint firstAttribute="height" constant="51" id="d73-Xe-zBK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="self.layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NVF-eS-uJT" firstAttribute="leading" secondItem="R5X-FC-mht" secondAttribute="trailing" constant="8" id="1Av-Mp-la8"/>
+                            <constraint firstItem="NVF-eS-uJT" firstAttribute="top" secondItem="59A-6f-HJL" secondAttribute="top" constant="6" id="9uB-6D-BGT"/>
+                            <constraint firstAttribute="trailing" secondItem="KH7-lw-5xZ" secondAttribute="trailing" constant="8" id="Fce-XT-QzX"/>
+                            <constraint firstAttribute="bottom" secondItem="ube-Uw-Rzr" secondAttribute="bottom" constant="8" id="M62-Io-dNg"/>
+                            <constraint firstItem="KH7-lw-5xZ" firstAttribute="leading" secondItem="R5X-FC-mht" secondAttribute="trailing" constant="10" id="Pkc-vv-LF0"/>
+                            <constraint firstItem="R5X-FC-mht" firstAttribute="top" secondItem="59A-6f-HJL" secondAttribute="top" constant="6" id="Woi-md-vLB"/>
+                            <constraint firstAttribute="height" constant="64" id="p1s-b2-xAX"/>
+                            <constraint firstItem="R5X-FC-mht" firstAttribute="leading" secondItem="59A-6f-HJL" secondAttribute="leading" constant="8" id="rED-8U-0Ef"/>
+                            <constraint firstAttribute="trailing" secondItem="ube-Uw-Rzr" secondAttribute="trailing" constant="18" id="sZ9-tQ-ULC"/>
+                            <constraint firstAttribute="bottom" secondItem="KH7-lw-5xZ" secondAttribute="bottom" id="t8e-VR-CkN"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0UY-P0-9cS" userLabel="Line">
+                        <rect key="frame" x="0.0" y="67" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="AaA-D1-bDp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="59A-6f-HJL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="-1" id="0nL-eO-pCq"/>
+                    <constraint firstItem="59A-6f-HJL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="EFi-yx-86R"/>
+                    <constraint firstItem="0UY-P0-9cS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LS4-fG-PdN"/>
+                    <constraint firstAttribute="bottom" secondItem="0UY-P0-9cS" secondAttribute="bottom" id="YfX-Kn-K6H"/>
+                    <constraint firstAttribute="trailing" secondItem="59A-6f-HJL" secondAttribute="trailing" constant="1" id="kbV-JR-Ef5"/>
+                    <constraint firstAttribute="trailing" secondItem="0UY-P0-9cS" secondAttribute="trailing" id="rKW-dg-kE4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="focusOnBtn" destination="ube-Uw-Rzr" id="eD6-1g-aq7"/>
+                <outlet property="myImgIcon" destination="R5X-FC-mht" id="RU7-UK-IIc"/>
+                <outlet property="userImage" destination="JJY-ln-jiz" id="SKc-EI-K2L"/>
+                <outlet property="userInfo" destination="NVF-eS-uJT" id="icv-1e-Mnl"/>
+                <outlet property="userLabs" destination="shJ-pI-GE8" id="Jjj-wM-YSY"/>
+            </connections>
+            <point key="canvasLocation" x="-249" y="184.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="IMG_2390" width="6" height="90"/>
+        <image name="card_icon_addattention" width="24" height="24"/>
+    </resources>
+</document>
